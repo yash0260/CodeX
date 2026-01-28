@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment Variables
+.env
+.env.local
+.env.production
+server/.env
+client/.env
+
+# Build outputs
+dist/
+build/
+client/dist/
+server/dist/
+
+# IDE - VSCode (Personal settings)
+.vscode/
+*.code-workspace
+
+# IDE - Other
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+logs/
+
+# Testing
+coverage/
+
+# Production
+.vercel
+.render
