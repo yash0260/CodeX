@@ -12,6 +12,10 @@ app.use(cors({
   origin: [
     'http://localhost:5173',
     'http://localhost:5174',
+    'https://codex-liart-nine.vercel.app', 
+    'https://codex-npmi6ghnw-yashs-projects-dbca437d.vercel.app',
+    'https://codex-git-main-yashs-projects-dbca437d.vercel.app',
+    'https://codex-yashs-projects-dbca437d.vercel.app'
   ],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
